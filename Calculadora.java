@@ -10,22 +10,22 @@ public class Calculadora {
 		Integer opcion;
 		Integer resultado;
 		Scanner teclado = new Scanner(System.in);
-		do{
-			System.out.println("Ingrese su operacion /n 1 para sumar /n 2 para restar /n 3 para multiplicar / n 4 para dividir");
+		
+			System.out.println("Ingrese su operacion /n 1 para RESTA /n 2 para SUMA /n 3 para DIVIDIR / n 4 para MULTIPLICAR");
 			opcion = teclado.nextInt(); 
 			
-		} switch (opcion) {
+		 switch (opcion) {
 				case 1 :
-					resultado=a+b;
-					break;
-				case 2 :
 					resultado=a-b;
 					break;
+				case 2 :
+					resultado=a+b;
+					break;
 				case 3 :
-					resultado=a*b;
+					resultado=a/b;
 					break;
 				case 4 :
-					resultado=a/b;
+					resultado=a*b;
 					break;
 				default: System.out.println("Opción no valida");	
 					
