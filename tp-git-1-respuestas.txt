@@ -1,0 +1,33 @@
+# tp2-git-pb2
+tp n 1 - progra basica 2 unlam
+¿Qué sucedió cuando se intento hacer el segundo push?
+-cuando se intendo hacer el segundo push desde  el usuario "colaborador" a la funcion git psh ubo que agregarle myFork + el nombre de la rama
+en nuestro caso la line de comado quedo de la siguiente manera:
+git push myFork ramaFernandoFerrari
+
+¿Qué acciones hay que tomar antes de realizar el push?
+-agregar los archivos modificados
+git add .
+-cambiar a la rama donde se realizo la modificacion
+git ckeckout ramaFernandoFerrari
+
+y el posterior push descripto en el punto anterior
+
+¿Qué estrategia propondrían para evitar esta situación?
+(no comprendo la pregunta)
+
+6. En el repositorio local ejecutar el siguiente comando git checkout -b develop
+¿Qué acción realiza el parámetro -b?
+el comando -b crea una nueva rama y automaticamente pasamos a trabajar en esa nueva rama
+
+7. Crear ramas utilizando la recientemente creada develop utilizando los nombres de los desarrolladores
+8. Modificar los archivos revirtiendo cambios o realizando mejoras, siempre procurando editar los
+métodos y líneas. Ejemplo: separar cada acción (sumar, restar, multiplicar y dividir) en métodos
+
+9. Realizar en el repositorio remoto un merge request
+
+¿Qué diferencias notaron en el proceso?
+Que hay que realizar un nuevo commit y el git genera un commit por defecto el cual puede ser modificado 
+
+¿Qué estrategia utilizarían para evitar conflictos?
+para evitar conflictos no deben ser modificada en dos ramas distintas las mismas lineas de codigo
